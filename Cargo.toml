@@ -1,12 +1,13 @@
 [package]
 name = "genawaiter-try-stream"
-version = "0.0.0"
+version = "0.1.0"
 edition = "2024"
 publish = true
 repository = "https://github.com/parrrate/genawaiter-try-stream"
 authors = ["Alisa Feistel <alisafeistel@gmail.com>"]
 license = "MIT OR Apache-2.0"
 rust-version = "1.90"
+description = "Small utility to construct `TryStream` from `genawaiter`"
 exclude = ["/.github", "/.gitignore", "CHANGELOG.md"]
 
 [dependencies]
