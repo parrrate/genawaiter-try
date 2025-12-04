@@ -7,7 +7,7 @@ repository = "https://github.com/parrrate/genawaiter-try-stream"
 authors = ["Alisa Feistel <alisafeistel@gmail.com>"]
 license = "MIT OR Apache-2.0"
 rust-version = "1.90"
-description = "Small utility to construct `TryStream` from `genawaiter`"
+description = "small utility to construct `TryStream` using `genawaiter`"
 exclude = ["/.github", "/.gitignore", "CHANGELOG.md"]
 
 [dependencies]
