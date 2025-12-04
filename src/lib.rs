@@ -1,6 +1,6 @@
 use std::sync::Arc;
 
-use futures_util::{Stream, TryFuture};
+use futures_core::{Stream, TryFuture};
 use genawaiter::sync::Gen;
 
 pub struct Co<T, E>(Arc<genawaiter::sync::Co<Result<T, E>>>);
