@@ -1,6 +1,6 @@
 [package]
-name = "genawaiter-try"
-version = "0.1.0"
+name = "genawaiter-try-stream"
+version = "0.0.0"
 edition = "2024"
 
 [dependencies]
